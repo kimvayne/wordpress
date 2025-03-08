@@ -55,7 +55,9 @@ sudo ./wordpress-setup.sh
 sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 ```
 
-> **참고**: Cloudflare를 사용하는 경우, SSL 인증서 발급 전에 DNS 레코드를 DNS-only 모드(회색 구름)로 설정하세요. 인증서 발급 후 다시 프록시(오렌지색 구름)로 변경할 수 있습니다.
+> **참고**: Cloudflare를 사용하는 경우, 
+SSL 인증서 발급 전에 DNS 레코드를 DNS-only 모드(회색 구름), SSL/TLS(가변)으로 설정 하세요. 
+인증서 발급 후 다시 프록시(오렌지색 구름), SSL/TLS 전체(엄격)으로 변경할 수 있습니다.
 
 ### 워드프레스 설정 완료
 
@@ -147,6 +149,3 @@ sudo tar -czf wordpress_backup.tar.gz /var/www/wordpress
 ---
 
 © 2025 kimvayne
-# wordpress
-# wordpress
-# wordpress
