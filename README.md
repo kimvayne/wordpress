@@ -29,7 +29,7 @@
 
 ```bash
 cd ~
-curl -O https://raw.githubusercontent.com/nkimtnt/wp/main/wordpress-setup.sh
+curl -O https://raw.githubusercontent.com/kimvayne/wordpress/main/wordpress-setup.sh
 chmod +x wordpress-setup.sh
 sudo ./wordpress-setup.sh
 ```
